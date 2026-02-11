@@ -1,48 +1,56 @@
-Priority ranking of 5 candidate PhD internship research themes for Junteng Liu
+LJT-Internship-Priority
 
-Ranking criteria (applied simultaneously):
-1. Recency of publications and internships (more recent = higher priority)
-2. Specificity: presence of first-author publications or code repos tied to the theme
-3. Demonstrable experience vs. aspirational interest: internships and co-authorships weigh more than stated interests alone
+Ranked priority (exactly 5 candidate themes, with facts cited from memory)
 
-1) LLM truthfulness and interpretability — Rank #1
-- Justification (memory facts cited):
-  - "Research interests include LLM truthfulness and Interpretability" (memory)
-  - First-author publication: "On the Universal Truthfulness Hyperplane Inside LLMs" (2024) at EMNLP 2024 (memory)
-  - Has GitHub code repository: "Universal_Truthfulness_Hyperplane" (memory)
-  - Internship and advisor relations supporting LLM work: co-author Prof. Yu Cheng (memory)
-  - Criteria used: recency (2024 EMNLP), specificity (first-author + code repo), demonstrable experience (publication)
+1) LLM reasoning & verifiable logical reasoning — Top priority
+- Why (uses criteria: recency, specificity, demonstrable experience):
+  - Recency: First-author paper "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond" (2025).
+  - Specificity: Paper title focuses on synthesizing verifiable reasoning data and learning logical reasoning (direct match to "LLM Reasoning").
+  - Demonstrable experience: Memory records Junteng Liu as first author and notes the paper "Has GitHub code repository".
+- Memory facts cited: "SynLogic... (2025) - First author"; "Has GitHub code repository".
 
-2) LLM reasoning & reinforcement learning — Rank #2
-- Justification (memory facts cited):
-  - "Research interests include LLM Reasoning and Reinforcement Learning" (memory)
-  - First-author publication relevant to reasoning: "SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond" (2025) — First author and has GitHub code repo (memory)
-  - Criteria used: recency (2025 publication), specificity (first-author + code repo), demonstrable experience (publication)
+2) Hallucination and chart understanding in Vision–Language Models (VLMs)
+- Why (uses criteria: recency, specificity, demonstrable experience):
+  - Recency: First-author paper "On the Perception Bottleneck of VLMs for Chart Understanding" (2025).
+  - Specificity: Explicit focus on perception bottleneck and chart understanding — a concrete VLM task related to hallucination.
+  - Demonstrable experience: First author and memory indicates a GitHub repo (Vision4Chart).
+- Memory facts cited: "On the Perception Bottleneck of VLMs for Chart Understanding (2025) - First author"; "Has GitHub code repository: Vision4Chart"; interest: "Hallucination in Vision-Language Models".
 
-3) Hallucination in vision-language models (VLMs) / hallucination mitigation — Rank #3
-- Justification (memory facts cited):
-  - "Research interests include Hallucination in Vision-Language Models (VLM)" (memory)
-  - First-author publication: "On the Perception Bottleneck of VLMs for Chart Understanding" (2025) — First author; GitHub code repo: Vision4Chart (memory)
-  - Co-authored ICML 2024 paper on hallucination mitigation: "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation" (ICML 2024) (memory)
-  - Criteria used: recency (2025 & 2024), specificity (first-author + code repo), demonstrable experience (ICML paper co-authorship)
+3) LLM truthfulness and interpretability
+- Why (uses criteria: demonstrable experience, specificity, recency):
+  - Demonstrable experience: First-author paper "On the Universal Truthfulness Hyperplane Inside LLMs" published at EMNLP 2024 and associated GitHub repo (Universal_Truthfulness_Hyperplane).
+  - Specificity: Matches stated research interest "LLM truthfulness and Interpretability" in memory.
+  - Recency/community validation: EMNLP 2024 is a recent peer-reviewed venue.
+- Memory facts cited: "On the Universal Truthfulness Hyperplane Inside LLMs" (2024) - First author; "Published at EMNLP 2024"; "Has GitHub code repository: Universal_Truthfulness_Hyperplane"; research interest: "LLM truthfulness and Interpretability".
 
-4) Evaluation & benchmarks for foundation models (e.g., C-Eval) — Rank #4
-- Justification (memory facts cited):
-  - Co-author on "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models" (NeurIPS 2023) (memory)
-  - This demonstrates experience building evaluation suites and benchmarks relevant to foundation models
-  - Criteria used: specificity (NeurIPS publication), demonstrable experience (co-authorship), but lower recency (2023)
+4) Inner-representation approaches to hallucination mitigation (in-context sharpness)
+- Why (uses criteria: demonstrable experience, specificity, collaborative strength):
+  - Demonstrable experience: Co-author on ICML 2024 paper "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation".
+  - Specificity: Targets inner representations and hallucination mitigation — connects to both truthfulness and VLM hallucination themes.
+  - Collaborative strength: Publication at ICML 2024 as co-author indicates contribution in a top venue.
+- Memory facts cited: "In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation" (2024) - Published at ICML 2024; co-author includes Junteng Liu.
 
-5) Parameter-efficient model composition / model modularity — Rank #5
-- Justification (memory facts cited):
-  - Co-author on "Composing Parameter-Efficient Modules with Arithmetic Operations" (NeurIPS 2023) (memory)
-  - Demonstrates experience with parameter-efficient methods and modular composition
-  - Criteria used: specificity (NeurIPS publication), demonstrable experience (co-authorship), but lower recency and fewer first-author signals compared to higher-ranked themes
+5) Evaluation & model adaptation (benchmarks and parameter-efficient modules)
+- Why (uses criteria: demonstrable experience, breadth, supporting value):
+  - Demonstrable experience: Co-author on NeurIPS 2023 papers "C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models" and "Composing Parameter-Efficient Modules with Arithmetic Operations".
+  - Breadth/supporting value: Benchmarking and parameter-efficient modules support empirical validation across the higher-priority themes, but are less central to the stated core interests.
+- Memory facts cited: "C-Eval... (2023) - Published at NeurIPS 2023"; "Composing Parameter-Efficient Modules with Arithmetic Operations (2023) - NeurIPS 2023"; co-author listings include Junteng Liu.
 
-If time allows next week (two prioritized changes):
-1. Add a focused README + example notebook for the top-ranked theme (LLM truthfulness and interpretability) that highlights experiments/code from the "Universal_Truthfulness_Hyperplane" repository and links to the EMNLP 2024 paper (memory) — this leverages existing first-author work and code.
-2. Create a short walkthrough demo or README excerpt from the 2025 "SynLogic" project showing dataset synthesis and example results to support LLM reasoning & RL interest (memory). 
+If time allows next week (two recommended improvements, no new achievements invented)
+1) Highlight SynLogic on the GitHub landing/profile
+- Action: Feature SynLogic (2025) as the primary project in the profile README: brief blurb linking to the paper and the SynLogic code repository and a 1–2 sentence description of what the code reproduces.
+- Memory basis: SynLogic is first-author (2025) and memory notes a GitHub code repository exists.
+- Explicit uncertainty: Memory states the SynLogic repo exists but does not include the exact repository URL or confirm public visibility or presence of demo notebooks; verify repo URL and visibility before adding direct links.
 
-Notes on uncertainties from memory: 
-- Memory lists GitHub code repository names ("Universal_Truthfulness_Hyperplane", "Vision4Chart", "SynLogic"), but does not provide exact URLs; I did not invent URLs.
-- Memory indicates internships and advisors but does not specify exact roles/tasks performed during each internship; prioritization uses publications and co-authorships when available rather than assumed internship task details.
-- If you want direct links or want the PRIORITY.md committed to a different repository owner, that information is missing from memory; I created the public repo under GitHub account 'razvangabdumitru-spec' because repository creation used the authenticated account present in the environment, not the memory profile of 'Vicent0205'.
+2) Pin and surface the three most relevant repos + Google Scholar
+- Action: Pin Vision4Chart, SynLogic, and Universal_Truthfulness_Hyperplane on the GitHub profile and add a "Selected Publications" section linking to the Google Scholar profile and the code repositories.
+- Memory basis: The three papers and associated code repositories and the Google Scholar profile URL are present in memory.
+- Explicit uncertainty: Memory indicates code repos exist but does not provide exact GitHub URLs or confirm whether they are already pinned; confirm repo names/URLs and public visibility prior to pinning/linking.
+
+Notes and constraints
+- All claims above are drawn solely from the memory graph: publications (titles, years, authorship roles), stated research interests, and indications of associated GitHub code repositories.
+- I have not added any personal details beyond what memory contains.
+- Uncertainties were explicitly noted where memory records the existence of code repositories but does not provide exact URLs or visibility status.
+
+Top-priority pick (single theme to emphasize this week)
+- Emphasize "LLM reasoning & verifiable logical reasoning (SynLogic, 2025)" on the GitHub landing page this week because it maximizes the three criteria required (recency: 2025; specificity: logical reasoning / verifiable data synthesis; demonstrable experience: first-author + code repo noted in memory).
